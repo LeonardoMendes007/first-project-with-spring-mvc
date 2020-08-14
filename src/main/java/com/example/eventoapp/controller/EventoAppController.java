@@ -8,6 +8,6 @@ public class EventoAppController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "index";
+		return "redirect:/eventos";
 	}
 }
